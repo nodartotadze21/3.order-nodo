@@ -1,0 +1,143 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    background-color:#E0E8FF;
+    padding: 1.25rem;
+}
+.bimage {
+    position:absolute;
+    margin:auto
+    width: 1440px;
+    height: 437px;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    width: 450px;
+    height: 697px;
+    background-color:#FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+}
+.container .main-image { 
+    margin: auto;
+    width: 450px;
+    height: 220px;
+}
+.teqsti {
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-top: 45px;
+    padding-bottom: 20px;
+}
+#satauri{
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;;
+}
+#satauri:hover {
+    cursor: pointer;
+    color: red;
+}
+#paragrafi {
+    margin-top: 17px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+}
+.cont2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+    flex-shrink: 3;
+    margin-left: 48px;
+    margin-right: 48px;
+    width: 354px;
+    height: 98px;
+    background-color: #f7f9ff;
+    padding-bottom: 32px;
+}
+#ikoni {
+    width: 48px;
+    height: 48px;
+    margin-left: 24px;
+}
+.yuti { 
+    padding-top: 25px;
+    width: auto;
+}
+#anuali {
+    
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+#fasi {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+#chang {
+    padding-top: 12px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+}
+.cont3 {
+    margin: auto;
+    margin-top: 32px ;
+    margin-bottom: 32px;
+    width: 354px;
+    height: 50px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+}
+#prosi {
+    padding-top: 15px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+#prosi:hover {
+    cursor: pointer;
+    color: red;
+}
+#kancel {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+}
